@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/sleepy-panda/static/js/main.78017382.js",
+    "main.js": "/sleepy-panda/static/js/main.bedbd6f1.js",
     "index.html": "/sleepy-panda/index.html",
-    "main.78017382.js.map": "/sleepy-panda/static/js/main.78017382.js.map"
+    "main.bedbd6f1.js.map": "/sleepy-panda/static/js/main.bedbd6f1.js.map"
   },
   "entrypoints": [
-    "static/js/main.78017382.js"
+    "static/js/main.bedbd6f1.js"
   ]
 }
