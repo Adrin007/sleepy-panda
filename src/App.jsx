@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Home from "./pages/home";
 import Booking from "./pages/booking";
-import {BrowserRouter,Routes,Route} from "react-router-dom"
+import {HashRouter,Routes,Route} from "react-router-dom"
 
 function App(){
   return (
-    <BrowserRouter  basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
-        <Route exact path="/sleepy-panda/" element={<Home/>}/>
-        <Route path="/sleepy-panda/:id" element={<Booking/>}/>
+        <Route exact path="/" element={<Home/>}/>
+        <Route path="/:id" element={<Booking/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   
   )
 }
