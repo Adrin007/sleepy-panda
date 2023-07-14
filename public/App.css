@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu';
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    background-color: #EEEEEE;
+    height:100vh;
+}
+.logo{
+    margin-top: -15px;
+    width:7.5rem;
+    height:7.5rem;
+}
+@media only screen and (max-width: 600px) {
+    .logo{
+        width:4rem;
+        height:4rem;
+        margin-top: 1px;
+    }
+    .bookingImg{
+       max-width:100%;
+       max-height:12rem;
+    }
+}
+.img{
+    width:100%;
+    background-size: cover;
+    height:10.5rem;
+    transition: all 0.5s;
+}
+.img:hover{
+    transform: scale(1.2);
+}
+.zoomer{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.link{
+    text-decoration: none;
+    color:#EEEEEE;
+    width:100%;
+}
+.bookingImg{
+    width:38rem;
+    height:20rem;
+    border-radius: 20px;
+    margin-right: 4px;
+}
+.quilted::-webkit-scrollbar {
+    display: none;
+}
+.inner{
+    border-radius: 15px;
+}
+.nigga{
+    display: flex;
+}
+.booknow:hover{
+    color:skyblue;
+}
+.gay{
+    width:400px;
+    height:400px;
+}
