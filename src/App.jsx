@@ -5,7 +5,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 function App(){
   return (
-    <BrowserRouter  basename={process.env.PUBLIC_URL}>
+    <BrowserRouter  basename={"/sleepy-panda"}>
       <Routes>
         <Route exact path="/sleepy-panda" element={<Home/>}/>
         <Route exact path="/sleepy-panda/:id" element={<Booking/>}/>
