@@ -5,9 +5,9 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 function App(){
   return (
-    <BrowserRouter  basename={"/sleepy-panda"}>
+    <BrowserRouter  basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route exact path="/sleepy-panda" element={<Home/>}/>
+        <Route exact path="/sleepy-panda/" element={<Home/>}/>
         <Route path="/sleepy-panda/:id" element={<Booking/>}/>
       </Routes>
     </BrowserRouter>
