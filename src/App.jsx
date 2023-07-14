@@ -8,7 +8,7 @@ function App(){
     <BrowserRouter  basename={"/sleepy-panda"}>
       <Routes>
         <Route exact path="/sleepy-panda" element={<Home/>}/>
-        <Route exact path="/sleepy-panda/:id" element={<Booking/>}/>
+        <Route path="/sleepy-panda/:id" element={<Booking/>}/>
       </Routes>
     </BrowserRouter>
   
