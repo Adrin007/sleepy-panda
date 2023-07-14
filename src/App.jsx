@@ -7,8 +7,8 @@ function App(){
   return (
     <BrowserRouter  basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/sleepy-panda" element={<Home/>}/>
-        <Route path="/sleepy-panda/:id" element={<Booking/>}/>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/:id" element={<Booking/>}/>
       </Routes>
     </BrowserRouter>
   
